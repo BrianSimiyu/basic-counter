@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cash-counter.css" />
+
+    <title>Dira</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="index.html"><li>Products</li></a>
+          <a href=""><li>Cash</li></a>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Dira Cash Counter</h1>
+      <form>
+        <div>
+          <label for="start-count">Starting Count:</label>
+          <input type="number" id="start-count" />
+        </div>
+
+        <div class="inputs">
+          <div class="wrapper">
+            <label for="500-euro">500€:</label>
+            <input type="number" id="500-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="200-euro">200€:</label>
+            <input type="number" id="200-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="100-euro">100€:</label>
+            <input type="number" id="100-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="50-euro">50€:</label>
+            <input type="number" id="50-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="20-euro">20€:</label>
+            <input type="number" id="20-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="10-euro">10€:</label>
+            <input type="number" id="10-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="5-euro">5€:</label>
+            <input type="number" id="5-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="2-euro">2€:</label>
+            <input type="number" id="2-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="1-euro">1€:</label>
+            <input type="number" id="1-euro" />
+          </div>
+
+          <div class="wrapper">
+            <label for="50-cent">50¢:</label>
+            <input type="number" id="50-cent" />
+          </div>
+
+          <div class="wrapper">
+            <label for="20-cent">20¢:</label>
+            <input type="number" id="20-cent" />
+          </div>
+          <div class="wrapper">
+            <label for="10-cent">10¢:</label>
+            <input type="number" id="10-cent" />
+          </div>
+
+          <div class="wrapper">
+            <label for="5-cent">5¢:</label>
+            <input type="number" id="5-cent" />
+          </div>
+        </div>
+        <div class="button">
+          <button type="button" onclick="calculate()">Calculate</button>
+          <button class="reset-button" type="button" onclick="reset()">
+            Reset
+          </button>
+        </div>
+      </form>
+      <div class="result-container">
+        <h2>Results:</h2>
+        <p>Total Cash: <span id="total-cash"></span></p>
+        <p>
+          Cash minus Starting Count: <span id="cash-minus-start-count"></span>
+        </p>
+      </div>
+    </div>
+    <script src="cash-counter.js"></script>
+  </body>
+</html>

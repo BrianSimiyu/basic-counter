@@ -47,16 +47,7 @@ const categories = [
       { name: "Blueberry", quantity: 0 },
     ],
   },
-  {
-    name: "Soft Drinks",
-    products: [
-      { name: "Coke", quantity: 0 },
-      { name: "Sprite", quantity: 0 },
-      { name: "Fanta", quantity: 0 },
-      { name: "Ginger Ale", quantity: 0 },
-      { name: "Tonic Water", quantity: 0 },
-    ],
-  },
+
   {
     name: "Mixers",
     products: [
