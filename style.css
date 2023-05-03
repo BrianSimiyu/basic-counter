@@ -1,0 +1,36 @@
+* {
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.category {
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+}
+
+.counter {
+  display: flex;
+}
+
+.count-input {
+  width: 40px;
+  text-align: center;
+}
+
+.minus,
+.plus {
+  margin: 0 5px;
+  padding: 10px 14px;
+  border: 0.01px solid grey;
+  border-radius: 5px;
+}
